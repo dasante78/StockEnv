@@ -49,7 +49,10 @@ Time to collect your data to train!!!
 	end_date='now'
 	agent_memory = 5
 	seed = 42
-	trainx,testx,trainy, testy = environment.train_test(test_percent= test_percent, shuffle = shuffle, start_date=start_date, end_date=end_date, agent_memory=agent_memory, seed=seed)
+	trainx,testx,trainy, testy = environment.train_test(
+	test_percent= test_percent, shuffle = shuffle, 
+	start_date=start_date, end_date=end_date,
+	agent_memory=agent_memory, seed=seed)
 
 Futher information on parameters in Documentation 
 
