@@ -1,7 +1,7 @@
-# StockEnv: Stock Environment for Human
-## StockEnv: Stocks Made Easy
+# StockTrainer: Stock Environment for Human
+## StockTrainer: Stocks Made Easy
 
-StockEnv is high level API data generator for training python machine learning models on stock/cryptocurrency data and is capable of running with Keras, Tensorflow, sklearn, and many other machine learning APIs
+StockTrainer is high level API data generator for training python machine learning models on stock/cryptocurrency data and is capable of running with Keras, Tensorflow, sklearn, and many other machine learning APIs
 
 Capabilities:
 
@@ -13,7 +13,7 @@ Capabilities:
 
 Documentation available soon ;)
 
-StockEnv is compatible with: Python 3.6+
+StockTrainer is compatible with: Python 3.6+
 
 ## Getting Started
 The core of algorithm is the model, here is a simple LSTM model to based on 5 days of stock data to predict the next
@@ -36,9 +36,9 @@ The core of algorithm is the model, here is a simple LSTM model to based on 5 da
 
     model.compile(loss='mse', optimizer='adam')
 
-Next import StockEnv and create your environment
+Next import StockTrainer and create your environment
  
-    from StockEnv import Env
+    from StockTrainer import Env
     enviorment = Env("Standard", "AAPL")
 
 Time to collect your data to train!!!
