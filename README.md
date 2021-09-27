@@ -1,7 +1,7 @@
-# StockTrainer: Stock Environment for Human
-## StockTrainer: Stocks Made Easy
+# StockTrainer: Stocks Made Easy
 
-StockTrainer is high level API data generator for training python machine learning models on stock/cryptocurrency data and is capable of running with Keras, Tensorflow, sklearn, and many other machine learning APIs
+StockTrainer is high level API data generator for training python machine learning models on stock and cryptocurrency data. 
+It is capable of running with Keras, Tensorflow, sklearn, and many other machine learning APIs
 
 Capabilities:
 
@@ -16,7 +16,7 @@ Documentation available soon ;)
 StockTrainer is compatible with: Python 3.6+
 
 ## Getting Started
-The core of algorithm is the model, here is a simple LSTM model to based on 5 days of stock data to predict the next
+The core of algorithm is the model, here is a simple LSTM model to based on 5 days of stock data to predict next day stock price
 
 	import keras
 	import numpy as np
@@ -68,7 +68,7 @@ That's it now train and test your model
     #use model to predict
     model.predict(testx)
 
-More examples on samples folder in github
+More examples in samples folder in github
 
 ## Installation
 
